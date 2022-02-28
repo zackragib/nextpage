@@ -1,0 +1,48 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo{
+   
+    width: 118px;
+    height: 46px;
+}
+.logo_title p{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    color: #10192D;
+    padding: 0%;
+    margin: 0;
+}
+.logo_sub_title p{
+    color: #8E9BAE;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+.image_icon_container{
+
+  
+    width: 578px;
+    height: 50px;
+}
+.notif_icons{
+    width: 96px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    .image_icon_container{
+        display: none;
+    }
+}

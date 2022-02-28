@@ -1,0 +1,51 @@
+.option{
+margin-top: 27px;
+width: 238.42px;
+height: 43.58px;
+display: flex;
+justify-content: space-between;
+}
+
+.title_container{
+    display: flex;
+}
+.circle_icon{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43.58px;
+    height: 43.58px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.title_container p{
+    margin-left: 13px;
+    width: 86px;
+    height: 19px;
+
+    font-family: Manrope;
+    font-style: var(--font-family);
+    font-weight: 500;
+    font-size: 13.9778px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+.option button{
+width: 43.58px;
+height: 43.58px;
+
+
+/* cards bg */
+cursor: pointer;
+border: none;
+background: #FEFEFF;
+opacity: 0.4;
+box-shadow: 0px 82.2222px 65.7778px rgba(41, 72, 152, 0.05), 0px 53.2922px 38.5226px rgba(41, 72, 152, 0.037963), 0px 31.6708px 20.9514px rgba(41, 72, 152, 0.0303704), 0px 16.4444px 10.6889px rgba(41, 72, 152, 0.025), 0px 6.69959px 5.35967px rgba(41, 72, 152, 0.0196296), 0px 1.52263px 2.58848px rgba(41, 72, 152, 0.012037);
+border-radius: 14.8px;
+}

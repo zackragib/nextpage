@@ -1,0 +1,29 @@
+.rightNav_container  ul{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    
+}
+
+
+.rightNav_container_active{
+    margin-left: 15px;
+    font-family: var(--font-manrope);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.rightNav_container_inActive{
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: var(--font-manrope);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    opacity: 0.4;
+}

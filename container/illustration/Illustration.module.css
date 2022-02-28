@@ -1,0 +1,85 @@
+
+.ilustration_numbers{
+    width: 24px;
+    height: 124px;
+    margin-left: 13.9px;
+    margin-top: 11px;
+   
+}
+
+.illustration_matter{
+    margin-top: 71.7px;
+    margin-left: 18px;
+    margin-bottom: 19px;
+    margin-right: 49px;
+    width: 208px;
+    height: 214px;
+}
+.illustration_tips{
+width: 136px;
+height: 50px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+
+color: #000000;
+}
+.illustration_matter_subtitle{
+    margin-top: 9px;
+    width: 208px;
+    height: 48px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.ilustration_people_enroll{
+    margin-top: 18px;
+    width: 168px;
+    height: 19px;
+    font-family: var(--font-family);;
+    font-weight: 500;
+    font-size: 13.9778px;
+    line-height: 19px;
+    color: #000000;
+}
+.ilustration_people_enroll_icon{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 178px;
+    height: 25px;
+}
+
+.ilustration_people_enroll_icon p {
+    margin-left: 9px;
+    width: 24px;
+    height: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.enroll_today{
+    margin-top: 11px;
+    width: 84px;
+    height: 19px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13.9778px;
+    line-height: 19px;
+    color: #000000;
+    cursor: pointer;
+}
+

@@ -1,0 +1,27 @@
+.number_active{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #503094;
+
+}
+.number_inActive{
+
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.1;
+}

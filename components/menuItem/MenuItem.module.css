@@ -1,0 +1,24 @@
+.item{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.item h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #686666;
+
+}
+.item h4:hover{
+    color: #000000;
+}
+

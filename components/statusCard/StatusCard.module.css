@@ -1,0 +1,67 @@
+.statusCard{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: #FDF2FF;
+    border-radius: 25px;
+    padding-left: 14px;
+    padding-top: 18px;
+    padding-right: 19px;
+    padding-bottom: 18px;
+    }
+
+
+.upper_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.upper_head p{
+    width: 81px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #503094;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+
+.goal_staus p{
+    margin: 0px;
+    width: 163px;
+    height: 34px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: var(--font-family);
+    color: #10192D;
+    opacity: 0.2;
+}
+
+.goal_percentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.goal_percentage p{
+    margin-top: 14px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 32px;
+    height: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+.progress_bar_container{
+  
+    margin-top: 18px;
+}

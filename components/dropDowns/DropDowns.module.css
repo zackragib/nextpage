@@ -1,0 +1,38 @@
+.dropdown_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+}
+
+.dropdown{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12px;
+    width: 160px;
+    height: 45px;
+    background: #ECF1FC;
+    border-radius: 12px;
+  
+}
+
+.dropdown_title{
+    margin-left: 15px;
+width: 34px;
+height: 19px;
+font-family: var(--font-manrope);
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+
+.dropdown_indicator{
+    display: flex;
+    flex-direction: column;
+opacity: 0.4;
+}
+
