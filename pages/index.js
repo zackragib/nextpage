@@ -16,11 +16,19 @@ import Mike from '../assets/mike.png'
 import John from '../assets/john.png'
 import Michelle from '../assets/michelle.png'
 import RightPannel from '../container/rightPannel/RightPannel';
+import { useTheme } from 'next-themes'
+import Head from 'next/head';
+
+
 
 
 export default function Home() {
+
   return (
     <div>
+      <Head>
+        <title>Ragib Ansari</title>
+      </Head>
       <main className={styles.main}>
       <Navbar />
         <Header />

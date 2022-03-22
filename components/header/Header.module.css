@@ -1,4 +1,5 @@
 .header_container{
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,6 +7,7 @@
 }
 
 .greeting{
+    
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -13,6 +15,7 @@
     
 }
 .greeting_user{
+   
     margin-left: 16px;
     font-family: var(--font-family);
     font-style: normal;

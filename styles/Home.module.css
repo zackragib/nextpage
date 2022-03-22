@@ -14,10 +14,13 @@
 }
 
 .content_left{
+ 
   width: 210;
 }
 
 .main_container_item{
+  position: sticky;
+  top: 1px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
